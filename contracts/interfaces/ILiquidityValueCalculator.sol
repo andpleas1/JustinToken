@@ -2,5 +2,5 @@
 pragma solidity >=0.4.22 <0.9.0;
 
 interface ILiquidityValueCalculator  {
-  function computeLiquidityShareValue(uint liquidity, address tokenA, address tokenB) external returns (uint tokenAAmount, uint tokenBAmount);
+  function computeLiquidityShareValue(uint _liquidity, address _tokenA, address _tokenB) external returns (uint tokenAAmount, uint tokenBAmount);
 }
